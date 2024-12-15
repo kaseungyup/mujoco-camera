@@ -1,0 +1,170 @@
+<mujoco model="obj_car">
+    <asset>
+    <!-- 모델 자산 정의 -->
+    <mesh name = "back_bumper" file = "../car_mesh/back_bumper.obj"/>
+    <mesh name = "back_left_door" file= "../car_mesh/back_left_door.obj"/>
+    <mesh name = "back_left_wheel" file= "../car_mesh/back_left_wheel.obj"/>
+    <mesh name = "back_left_window" file= "../car_mesh/back_left_window.obj"/>
+    <mesh name = "back_license_plate" file= "../car_mesh/back_license_plate.obj"/>
+    <mesh name = "back_right_door" file= "../car_mesh/back_right_door.obj"/>
+    <mesh name = "back_right_wheel" file= "../car_mesh/back_right_wheel.obj"/>
+    <mesh name = "back_right_window" file= "../car_mesh/back_right_window.obj"/>
+    <mesh name = "back_windshield" file= "../car_mesh/back_windshield.obj"/>
+    <mesh name = "front_bumper" file= "../car_mesh/front_bumper.obj"/>
+    <mesh name = "front_left_door" file= "../car_mesh/front_left_door.obj"/>
+    <mesh name = "front_left_wheel" file= "../car_mesh/front_left_wheel.obj"/>
+    <mesh name = "front_left_window" file= "../car_mesh/front_left_window.obj"/>
+    <mesh name = "front_license_plate" file= "../car_mesh/front_license_plate.obj"/>
+    <mesh name = "front_right_door" file= "../car_mesh/front_right_door.obj"/>
+    <mesh name = "front_right_wheel" file= "../car_mesh/front_right_wheel.obj"/>
+    <mesh name = "front_right_window" file= "../car_mesh/front_right_window.obj"/>
+    <mesh name = "front_windshield" file= "../car_mesh/front_windshield.obj"/>
+    <mesh name = "hood" file= "../car_mesh/hood.obj"/>
+    <mesh name = "left_frame" file= "../car_mesh/left_frame.obj"/>
+    <mesh name = "left_head_light" file= "../car_mesh/left_head_light.obj"/>
+    <mesh name = "left_mirror" file= "../car_mesh/left_mirror.obj"/>
+    <mesh name = "left_quarter_window" file= "../car_mesh/left_quarter_window.obj"/>
+    <mesh name = "left_tail_light" file= "../car_mesh/left_tail_light.obj"/>
+    <mesh name = "right_frame" file= "../car_mesh/right_frame.obj"/>
+    <mesh name = "right_head_light" file= "../car_mesh/right_head_light.obj"/>
+    <mesh name = "right_mirror" file= "../car_mesh/right_mirror.obj"/>
+    <mesh name = "right_quarter_window" file= "../car_mesh/right_quarter_window.obj"/>
+    <mesh name = "right_tail_light" file= "../car_mesh/right_tail_light.obj"/>
+    <mesh name = "roof" file= "../car_mesh/roof.obj"/>
+    <mesh name = "trunk" file= "../car_mesh/trunk.obj"/>
+
+    </asset>
+
+    <worldbody>
+        <body name="obj_car" pos="0 0 0.65">
+
+
+            <body name = "back_bumper" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "back_bumper" name = "back_bumper_geom"/>
+            </body>
+
+            <body name = "back_left_door" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "back_left_door" name = "back_left_door_geom" />
+            </body>
+
+            <body name = "back_left_wheel" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "back_left_wheel" name = "back_left_wheel_geom" />
+            </body>
+
+            <body name = "back_left_window" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "back_left_window" name = "back_left_window_geom" />
+            </body>
+
+            <body name = "back_license_plate" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "back_license_plate" name = "back_license_plate_geom" />
+            </body>
+
+            <body name = "back_right_door" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "back_right_door" name = "back_right_door_geom" />
+            </body>
+
+            <body name = "back_right_wheel" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "back_right_wheel" name = "back_right_wheel_geom" />
+            </body>
+
+            <body name = "back_right_window" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "back_right_window" name = "back_right_window_geom" />
+            </body>
+
+            <body name = "back_windshield" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "back_windshield" name = "back_windshield_geom" />
+            </body>
+
+            <body name = "front_bumper" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "front_bumper" name = "front_bumper_geom" />
+            </body>
+
+            <body name = "front_left_door" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "front_left_door" name = "front_left_door_geom" />
+            </body>
+
+            <body name = "front_left_wheel" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "front_left_wheel" name = "front_left_wheel_geom" />
+            </body>
+
+            <body name = "front_left_window" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "front_left_window" name = "front_left_window_geom" />
+            </body>
+
+            <body name = "front_license_plate" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "front_license_plate" name = "front_license_plate_geom" />
+            </body>
+            
+            <body name = "front_right_door" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "front_right_door" name = "front_right_door_geom" />
+            </body>
+
+            <body name = "front_right_wheel" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "front_right_wheel" name = "front_right_wheel_geom" />
+            </body>
+
+            <body name = "front_right_window" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "front_right_window" name = "front_right_window_geom" />
+            </body>
+
+            <body name = "front_windshield" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "front_windshield" name = "front_windshield_geom" />
+            </body>
+
+            <body name = "hood" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "hood" name = "hood_geom" />
+            </body>
+
+            <body name = "left_frame" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "left_frame" name = "left_frame_geom" />
+            </body>
+
+            <body name = "left_head_light" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "left_head_light" name = "left_head_light_geom" />
+            </body>
+
+            <body name = "left_mirror" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "left_mirror" name = "left_mirror_geom" />
+            </body>
+
+            <body name = "left_quarter_window" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "left_quarter_window" name = "left_quarter_window_geom" />
+            </body>
+
+            <body name = "left_tail_light" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "left_tail_light" name = "left_tail_light_geom" />
+            </body>
+
+            <body name = "right_frame" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "right_frame" name = "right_frame_geom" />
+            </body>
+
+            <body name = "right_head_light" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "right_head_light" name = "right_head_light_geom" />
+            </body>
+
+            <body name = "right_mirror" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "right_mirror" name = "right_mirror_geom" />
+            </body>
+
+            <body name = "right_quarter_window" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "right_quarter_window" name = "right_quarter_window_geom" />
+            </body>
+
+            <body name = "right_tail_light" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "right_tail_light" name = "right_tail_light_geom" />
+            </body>
+
+            <body name = "roof" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "roof" name = "roof_geom" />
+            </body>
+
+            <body name = "trunk" pos = "0.0 0.0 0.0">
+                <geom type = "mesh" mesh = "trunk" name = "trunk_geom" />
+            </body>
+
+
+        </body>
+
+    </worldbody>
+</mujoco>

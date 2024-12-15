@@ -1,0 +1,17 @@
+<mujoco model="cam_rgbd_camera">
+    <option gravity="0 0 -9.81" />
+    <asset>
+    <!-- 모델 자산 정의 -->
+    </asset>
+
+    <visual>
+        <global offwidth="1280" offheight="720" />
+    </visual>
+    <worldbody>
+        <body name="cam_body" pos="1.5 0 0.8" euler="0 1.57 1.57">
+            <inertial pos="0 0 0" mass="0.01" diaginertia="0.1 0.1 0.1" />
+            <joint name="cam_body_joint" type="free"/>
+            <camera name="external" pos="0 0 0" euler="0 0 0" fovy="45"/>
+        </body>
+    </worldbody>
+</mujoco>
